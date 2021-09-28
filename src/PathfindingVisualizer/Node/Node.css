@@ -14,7 +14,7 @@
 }
 
 .node-visited {
-  animation-name: visitedAnimation;
+  animation-name: visitedAnimation; /*visited animation declared later in keyframes*/
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-delay: 0;
@@ -23,7 +23,7 @@
   animation-fill-mode: forwards;
   animation-play-state: running;
 }
-
+/*@keyframes used to define details about the start/end/other instances in the animation*/
 @keyframes visitedAnimation {
   0% {
     transform: scale(0.3);
