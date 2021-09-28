@@ -13,7 +13,7 @@ Technologies used:
 * npm
 * ajax
 
-To run :
+To run this app with your computer:
 * Clone the code
 * cd PathVisualizer
 * npm install
